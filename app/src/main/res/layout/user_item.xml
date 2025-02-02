@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@color/card"
+    android:backgroundTint="@color/card"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textColor="@color/red"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="3dp"
+        android:backgroundTint="@color/material_dynamic_tertiary95"
+        app:cardCornerRadius="@android:dimen/app_icon_size"
+        app:cardElevation="6dp">
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:backgroundTint="@color/card"
+            android:text="TextView"
+            android:textSize="20sp">
+
+        </TextView>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="3dp"
+        android:backgroundTint="@color/material_dynamic_tertiary95"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@android:dimen/app_icon_size"
+        app:cardElevation="6dp">
+
+        <TextView
+            android:id="@+id/userContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:backgroundTint="@color/card"
+            android:text="TextView"
+            android:textSize="20sp">
+
+        </TextView>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="3dp"
+        android:backgroundTint="@color/material_dynamic_tertiary95"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@android:dimen/app_icon_size"
+        app:cardElevation="6dp">
+
+        <TextView
+            android:id="@+id/userLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:backgroundTint="@color/card"
+            android:text="TextView"
+            android:textSize="20sp">
+
+        </TextView>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="3dp"
+        android:backgroundTint="@color/material_dynamic_tertiary95"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@android:dimen/app_icon_size"
+        app:cardElevation="6dp">
+
+        <TextView
+            android:id="@+id/userFood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:backgroundTint="@color/card"
+            android:text="TextView"
+            android:textSize="20sp">
+
+        </TextView>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="3dp"
+        android:backgroundTint="@color/material_dynamic_tertiary95"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@android:dimen/app_icon_size"
+        app:cardElevation="6dp">
+
+        <TextView
+            android:id="@+id/userQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:backgroundTint="@color/card"
+            android:text="TextView"
+            android:textSize="20sp">
+
+        </TextView>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="3dp"
+        android:backgroundTint="@color/material_dynamic_tertiary95"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@android:dimen/app_icon_size"
+        app:cardElevation="6dp">
+
+        <TextView
+            android:id="@+id/userNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:backgroundTint="@color/card"
+            android:text="TextView"
+            android:textSize="20sp">
+
+        </TextView>
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

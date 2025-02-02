@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CareLink</string>
+    <string name="description">Reducing food waste and helping vulnerable individuals</string>
+    <string name="donate">Offer your surplus food to those in need and help reduce food waste.</string>
+    <string name="request">Request assistance and access donated food to support your needs.</string>
+    <string name="form">Food Donation/Request form</string>
+</resources>

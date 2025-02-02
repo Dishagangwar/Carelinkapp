@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/white"
+    tools:context=".DonateForm">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/ettName"
+            android:layout_width="370dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="112dp"
+            android:background="@drawable/custom_item"
+            android:ems="10"
+            android:hint="Enter your full name"
+            android:inputType="text"
+            android:padding="7dp"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/etContact"
+            android:layout_width="370dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="204dp"
+            android:background="@drawable/custom_item"
+            android:ems="10"
+            android:hint="Enter your contact info"
+            android:inputType="number"
+            android:padding="7dp"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/ettName"
+            app:layout_constraintHorizontal_bias="0.142"
+            app:layout_constraintStart_toStartOf="@+id/ettName"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/etLocation"
+            android:layout_width="370dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="292dp"
+            android:background="@drawable/custom_item"
+            android:ems="10"
+            android:hint="Enter your address"
+            android:inputType="text"
+            android:padding="7dp"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/ettName"
+            app:layout_constraintStart_toStartOf="@+id/ettName"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/form"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Full Name"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/ettName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.061"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Contact information"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/etContact"
+            app:layout_constraintStart_toStartOf="@+id/textView13" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Address"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/etLocation"
+            app:layout_constraintStart_toStartOf="@+id/textView13" />
+
+        <EditText
+            android:id="@+id/etfood"
+            android:layout_width="370dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="384dp"
+            android:background="@drawable/custom_item"
+            android:ems="10"
+            android:hint="Enter available food"
+            android:inputType="text"
+            android:padding="7dp"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/ettName"
+            app:layout_constraintHorizontal_bias="0.785"
+            app:layout_constraintStart_toStartOf="@+id/ettName"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Available food"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/etfood"
+            app:layout_constraintStart_toStartOf="@+id/textView13" />
+
+        <EditText
+            android:id="@+id/etquantity"
+            android:layout_width="370dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="476dp"
+            android:background="@drawable/custom_item"
+            android:ems="10"
+            android:hint="Enter quantity of food"
+            android:inputType="text"
+            android:padding="7dp"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/ettName"
+            app:layout_constraintHorizontal_bias="0.428"
+            app:layout_constraintStart_toStartOf="@+id/ettName"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Quantity of food"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/etquantity"
+            app:layout_constraintStart_toStartOf="@+id/textView13" />
+
+        <EditText
+            android:id="@+id/etNotes"
+            android:layout_width="370dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/custom_item"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Add notes"
+            android:inputType="textMultiLine"
+            android:padding="5dp"
+            app:layout_constraintStart_toStartOf="@+id/ettName"
+            app:layout_constraintTop_toBottomOf="@+id/etquantity" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="151dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginEnd="169dp"
+            android:backgroundTint="@color/red"
+            android:text="Submit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.469"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etquantity" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,48 @@
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/white"
+tools:context=".SplashScreen">
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="60dp"
+    android:layout_marginTop="300dp"
+    android:background="@android:drawable/editbox_background"
+    android:backgroundTint="@color/design_default_color_background"
+    android:fontFamily="@font/lobster_two_bold"
+    android:text="CARE"
+    android:textColor="@color/material_dynamic_neutral0"
+    android:textSize="55sp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<TextView
+    android:id="@+id/textView6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:drawable/editbox_background"
+    android:backgroundTint="@color/design_default_color_error"
+    android:fontFamily="@font/lobster_two_bold"
+    android:text="LINK"
+    android:textColor="@color/design_default_color_background"
+    android:textSize="55sp"
+    app:layout_constraintStart_toEndOf="@+id/textView2"
+    app:layout_constraintTop_toTopOf="@+id/textView2" />
+
+<ImageView
+    android:id="@+id/Splash_logo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="65dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView2"
+    app:srcCompat="@drawable/image" />
+</androidx.constraintlayout.widget.ConstraintLayout>

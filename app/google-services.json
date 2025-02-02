@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "814761136469",
+    "firebase_url": "https://care-link-52557-default-rtdb.firebaseio.com",
+    "project_id": "care-link-52557",
+    "storage_bucket": "care-link-52557.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814761136469:android:e14c450394ce55518a5fdc",
+        "android_client_info": {
+          "package_name": "com.example.carelinkapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2ZOyuXSRLkHljMg1bL2190OKssOnvyqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
